@@ -125,3 +125,59 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# ===== Django backend =====
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+# (You might want to keep migrations, but ignore compiled files)
+
+# Environment variables
+.env
+*.env
+
+# Django media and static files
+media/
+staticfiles/
+
+# SQLite database
+db.sqlite3
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Django secret key file (if any)
+secret_key.txt
