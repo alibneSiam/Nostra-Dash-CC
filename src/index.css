@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background-color: #A3C1E1;
-}
-
 body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
