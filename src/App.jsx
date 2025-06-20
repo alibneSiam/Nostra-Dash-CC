@@ -5,8 +5,7 @@ import { useState } from 'react';
 import { DatePicker } from './components/datepicker';
 import MultiLineGraph from './components/multilinegraph';
 import Histogram from './components/histogram';
-
-const BASE_URL = 'https://super-duper-space-couscous-wr47wj9r6xg3vxx-8000.app.github.dev';
+import BASE_URL from './config';
 
 const formatDateTime = (date) => {
   if (!date) return '';

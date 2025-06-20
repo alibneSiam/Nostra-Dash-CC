@@ -1,3 +1,3 @@
-const BASE_URL = "https://super-duper-space-couscous-wr47wj9r6xg3vxx-8000.app.github.dev/";
+const BASE_URL = "http://157.157.221.29:24597";
 
 export default BASE_URL;

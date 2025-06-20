@@ -98,7 +98,7 @@ export default function Histogram({
           <Legend />
           {[label1, label2].map((label, index) => (
             <Bar
-              key={label}
+              key={index}
               dataKey={label}
               fill={colorMap[index % colorMap.length]}
             />
